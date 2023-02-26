@@ -1,10 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Home from"./todolist/Home"
+import Tesla from"./Tesla/Tesla.js"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Home/>);
+root.render(<Tesla/>) 
+
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
+// import Home from"./todolist/Home"
+
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(<Home/>);
 
 
 

@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    top: 0;
+    width: 100%;
+    padding: 0 4rem;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    position: fixed;
+    font-size: 20px;
+}
+
+.model ul {
+    display: flex;
+    list-style: none;
+}
+
+.model ul li {
+    padding: 0 1rem;
+}
+.model a{
+    text-decoration: none;
+    color: #000;
+}
+
+.Content {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Content .carName {
+    margin-top: 7rem;
+    text-align: center;
+}
+
+.Content .carName h1 {
+    font-size: 3rem;
+}
+
+.Content .twoOption {
+    margin-bottom: 2rem;
+}
+
+.Content .twoOption a:first-of-type {
+    text-decoration: none;
+    padding: 1rem 3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-right: 1rem;
+    border-radius: 3rem;
+    color: #fff;
+}
+
+.Content .twoOption a:last-of-type {
+    text-decoration: none;
+    color: #000;
+    padding: 1rem 3rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-right: 1rem;
+    border-radius: 3rem;
+
+}
+.Content .twoOption a {
+    text-decoration: none;
+    color: #000;
+    padding: 1rem 3rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-right: 1rem;
+    border-radius: 3rem;
+
+}
+
+.arrow {
+    text-align: center;
+}
+
+.arrow img {
+    width: 60px;
+    
+}
+
+.sider {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 240px;
+    height: 100vh;
+    padding: 3rem 2rem;
+    background-color: #fff;
+    list-style: none;
+    font-size: 30px;
+}
+
+.sider li {
+    padding: 0.5rem 0;
+}
+
+.sider a {
+    padding: 1rem 0;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.mahendra {
+    position: absolute;
+    margin-right: 1rem;
+    font-size: 400px;
+    margin-top: 1rem;
+    top: 0;
+    right: 0;
+    
+}
