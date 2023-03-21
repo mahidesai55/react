@@ -46,6 +46,7 @@ function Tesla() {
     
       <Section  carName="Accessories" 
        leftbtn = "SHOP"
+       blackBg={true}
        backgroundImage = "accessories.jpg"
       />
 

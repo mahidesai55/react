@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    background: #e100ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #9845ec, #E100FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #9845ec, #E100FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+}
+.heading{
+    width: 70%;
+    margin: auto;
+    padding-top: 10rem;
+}
+.heading .tab h1{
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.heading .tab p{
+    border: 1px solid black;
+    color: #000;
+    background-color: #897474;
+    /* display: none; */
+    padding-left: 2rem;
+    padding-right: 2rem;
+}

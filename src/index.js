@@ -1,29 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Tesla from"./Tesla/Tesla.js"
-
+import Routing from './routing/App';
+// import Notab from"./Reacttab/Notab"
+// import Tabs from"./Heading/Tabs"
+// import Axios from"./Axios/axios.js"
+// import Tesla from"./Tesla/Tesla.js"
+// import Home from"./todolist/Home"
+// import Counter from"./Counter"
+// import Movies from"./MoviesWeb/Movies"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Tesla/>) 
-
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
-// import Home from"./todolist/Home"
-
-
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(<Home/>);
-
-
-
-
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
-// import Counter from"./Counter"
-
-
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(<Counter/>);
+root.render(
+    <Routing/>
+    //<Movies/>
+    //<Notab/>
+    //<Tabs/>
+    //<Axios/>
+    //<Tesla/>
+    //<Home/>
+    //<Counter/>
+    
+);
 
 
 //   const ram="raika"

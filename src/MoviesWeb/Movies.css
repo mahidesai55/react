@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(172, 126, 79);
+}
+.wrapper{
+    text-align: center;
+    margin-top: 1rem;
+}
+.wrapper input {
+    padding: 0.5rem 10rem;
+    margin-right: 1rem;
+}
+.wrapper button{
+    padding: 0.5rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    font-weight: 600;
+    background-color: rgb(248, 111, 61);
+    color: rgb(255, 255, 255);
+}
+.imagepage{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.imagemovie{
+    width: 260px;
+    border: 2px solid black;
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: #fff;
+}
+
+.imagemovie img{
+    height: 210px;
+    width: 240px;
+}

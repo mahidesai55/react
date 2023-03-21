@@ -51,35 +51,32 @@ header {
 }
 
 .Content .twoOption {
+    padding-top: 23rem ;
     margin-bottom: 2rem;
 }
-
-.Content .twoOption a:first-of-type {
+.Content .twoOption a{
     text-decoration: none;
     padding: 1rem 3rem;
-    background-color: rgba(0, 0, 0, 0.5);
     margin-right: 1rem;
-    border-radius: 3rem;
+    border-radius: 3rem; 
+}
+.Content .twoOption a:first-of-type {
+    background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
 }
 
 .Content .twoOption a:last-of-type {
-    text-decoration: none;
     color: #000;
-    padding: 1rem 3rem;
     background-color: rgba(255, 255, 255, 0.5);
-    margin-right: 1rem;
-    border-radius: 3rem;
 
 }
+.black{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
 .Content .twoOption a {
-    text-decoration: none;
     color: #000;
-    padding: 1rem 3rem;
     background-color: rgba(255, 255, 255, 0.5);
-    margin-right: 1rem;
-    border-radius: 3rem;
-
+    
 }
 
 .arrow {
@@ -87,8 +84,8 @@ header {
 }
 
 .arrow img {
-    width: 60px;
-    
+    width: 50px;
+    height: 60px;
 }
 
 .sider {
@@ -101,6 +98,8 @@ header {
     background-color: #fff;
     list-style: none;
     font-size: 30px;
+    transform: rotate(360deg);
+    transition: all 1s ease-in-out;
 }
 
 .sider li {
@@ -114,12 +113,35 @@ header {
     font-size: 20px;
 }
 
-.mahendra {
+.Mahendra {
     position: absolute;
     margin-right: 1rem;
-    font-size: 400px;
     margin-top: 1rem;
     top: 0;
     right: 0;
-    
+}
+.Mahendra:hover{
+    transform: rotate(360deg);
+    transition: all 1s ease;
+}
+@media all and (max-width: 1500px){
+    .model ul {
+        flex-wrap: wrap;
+    }   
+}
+@media all and (max-width:550px){
+    .Content .carName  {
+        padding: 5rem 0 0 0;
+    }   
+    .Content .twoOption a{
+        flex-wrap: wrap;
+    }
+}
+@media all and (max-width:460px){
+    .Content .carName  {
+        padding: 10rem 0 0 0;
+    }   
+    .Content .twoOption a{
+        flex-wrap: wrap;
+    }
 }
